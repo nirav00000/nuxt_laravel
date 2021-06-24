@@ -1,0 +1,302 @@
+{
+    "candidacies": [
+        {
+            "key": "gZjotgxXPXwdPGkz",
+            "candidate": {
+                "key": "dwwTbPtj0Q1l6wo1",
+                "name": "Dr. Benjamin Thompson",
+                "email": "bechtelar.isaac@example.com",
+                "metadata": {
+                    "contact_no": "1-291-720-4889 x9137",
+                    "education": "Education TEST BE",
+                    "college": "Collge TEST",
+                    "experience": 9,
+                    "last_company": "Wilkinson-Murazik"
+                }
+            },
+            "position": "Team Leader",
+            "final_status": "active",
+            "metadata": null,
+            "created_at": "2021-03-22T09:11:33+00:00"
+        },
+        {
+            "key": "62JL8HA4qH6nibUx",
+            "candidate": {
+                "key": "yLKGPZgmyGy18uQm",
+                "name": "Dr. Andrew Runolfsson II",
+                "email": "elouise.ratke@example.com",
+                "metadata": {
+                    "contact_no": "650.738.7861 x0978",
+                    "education": "Education TEST BE",
+                    "college": "Collge TEST",
+                    "experience": 431,
+                    "last_company": "Pacocha, Volkman and Langosh"
+                }
+            },
+            "position": "Devops",
+            "final_status": "active",
+            "metadata": null,
+            "created_at": "2021-03-22T09:11:24+00:00"
+        },
+        {
+            "key": "kiGlPTwkFJheqBAt",
+            "candidate": {
+                "key": "gsyjHwjo15f8QpB2",
+                "name": "Mr. Quentin Murphy",
+                "email": "tpacocha@example.org",
+                "metadata": {
+                    "contact_no": "(649) 514-8383",
+                    "education": "Education TEST BE",
+                    "college": "Collge TEST",
+                    "experience": 232,
+                    "last_company": "Kemmer, Ratke and Abshire"
+                }
+            },
+            "position": "Sr.Software Engineer",
+            "final_status": "active",
+            "metadata": null,
+            "created_at": "2021-03-22T09:11:26+00:00"
+        },
+        {
+            "key": "YimUk6SW5ohjLwHf",
+            "candidate": {
+                "key": "FHripsvefNsLCQj9",
+                "name": "Trent Frami",
+                "email": "bahringer.heloise@example.net",
+                "metadata": {
+                    "contact_no": "+1-690-845-2995",
+                    "education": "Education TEST BE",
+                    "college": "Collge TEST",
+                    "experience": 483,
+                    "last_company": "Lynch-Greenholt"
+                }
+            },
+            "position": "Team Leader",
+            "final_status": "active",
+            "metadata": null,
+            "created_at": "2021-03-22T09:11:28+00:00"
+        },
+        {
+            "key": "k9Uk7BRdjyA8dThZ",
+            "candidate": {
+                "key": "va6ZnJJsBgsJoQSM",
+                "name": "Lola Blick",
+                "email": "javonte47@example.org",
+                "metadata": {
+                    "contact_no": "+1-593-668-3030",
+                    "education": "Education TEST BE",
+                    "college": "Collge TEST",
+                    "experience": 141,
+                    "last_company": "Sanford-Hilpert"
+                }
+            },
+            "position": "Devops",
+            "final_status": "active",
+            "metadata": null,
+            "created_at": "2021-03-22T09:11:29+00:00"
+        },
+        {
+            "key": "PF4RYMoPv554LhWq",
+            "candidate": {
+                "key": "wopMCGn4iu3rTGj8",
+                "name": "Johnny Cruickshank",
+                "email": "okeeling@example.net",
+                "metadata": {
+                    "contact_no": "372.531.1872",
+                    "education": "Education TEST BE",
+                    "college": "Collge TEST",
+                    "experience": 821,
+                    "last_company": "Ziemann PLC"
+                }
+            },
+            "position": "Sr.Software Engineer",
+            "final_status": "active",
+            "metadata": null,
+            "created_at": "2021-03-22T09:11:30+00:00"
+        },
+        {
+            "key": "4sJjINbmhDOWPP9h",
+            "candidate": {
+                "key": "AfBvQ0Ku0DPrCDF9",
+                "name": "Alaina Trantow II",
+                "email": "ylarkin@example.net",
+                "metadata": {
+                    "contact_no": "1-694-792-0283 x09976",
+                    "education": "Education TEST BE",
+                    "college": "Collge TEST",
+                    "experience": 950,
+                    "last_company": "Rice and Sons"
+                }
+            },
+            "position": "Devops",
+            "final_status": "active",
+            "metadata": null,
+            "created_at": "2021-03-22T09:11:31+00:00"
+        },
+        {
+            "key": "Cqm39AJ61pKMqp2Z",
+            "candidate": {
+                "key": "eldZEOWU5TY3zgb6",
+                "name": "Evans Christiansen",
+                "email": "eohara@example.com",
+                "metadata": {
+                    "contact_no": "(981) 201-7619 x556",
+                    "education": "Education TEST BE",
+                    "college": "Collge TEST",
+                    "experience": 549,
+                    "last_company": "Murray-Wolff"
+                }
+            },
+            "position": "Sr.Software Engineer",
+            "final_status": "active",
+            "metadata": null,
+            "created_at": "2021-03-22T09:11:32+00:00"
+        },
+        {
+            "key": "dmdVEzvouPpuuLrc",
+            "candidate": {
+                "key": "qTAd0slQ9uUw3BOu",
+                "name": "Conner Rath",
+                "email": "norene.pfannerstill@example.org",
+                "metadata": {
+                    "contact_no": "328-750-5662 x743",
+                    "education": "Education TEST BE",
+                    "college": "Collge TEST",
+                    "experience": 87,
+                    "last_company": "Kub-Rice"
+                }
+            },
+            "position": "Team Leader",
+            "final_status": "active",
+            "metadata": null,
+            "created_at": "2021-03-22T09:11:34+00:00"
+        },
+        {
+            "key": "URXaNVzkyX0m4QV5",
+            "candidate": {
+                "key": "iLeCPVqVrR5VHL2S",
+                "name": "Prof. Landen Kutch",
+                "email": "qgraham@example.org",
+                "metadata": {
+                    "contact_no": "1-417-821-0166",
+                    "education": "Education TEST BE",
+                    "college": "Collge TEST",
+                    "experience": 958,
+                    "last_company": "Kerluke-Tromp"
+                }
+            },
+            "position": "Software Engineer",
+            "final_status": "active",
+            "metadata": null,
+            "created_at": "2021-03-22T09:11:35+00:00"
+        },
+        {
+            "key": "jA39o6ELvv1hFj2e",
+            "candidate": {
+                "key": "eKRurkzWaEaLLQai",
+                "name": "Mrs. Mariane Cartwright",
+                "email": "viola.dare@example.net",
+                "metadata": {
+                    "contact_no": "(594) 832-1391 x40003",
+                    "education": "Education TEST BE",
+                    "college": "Collge TEST",
+                    "experience": 736,
+                    "last_company": "Bogan, Kshlerin and Labadie"
+                }
+            },
+            "position": "Team Leader",
+            "final_status": "active",
+            "metadata": null,
+            "created_at": "2021-03-22T09:11:35+00:00"
+        },
+        {
+            "key": "OaRgBQnFIeitK1Ml",
+            "candidate": {
+                "key": "igMSvo6jF6Fmbdg5",
+                "name": "Electa Brakus DVM",
+                "email": "zkirlin@example.org",
+                "metadata": {
+                    "contact_no": "274.253.1350 x56214",
+                    "education": "Education TEST BE",
+                    "college": "Collge TEST",
+                    "experience": 961,
+                    "last_company": "Heaney-Hudson"
+                }
+            },
+            "position": "Software Engineer",
+            "final_status": "active",
+            "metadata": null,
+            "created_at": "2021-03-22T09:11:36+00:00"
+        },
+        {
+            "key": "Ynr1jT8zzcbI6HEN",
+            "candidate": {
+                "key": "coRcKa7YnWs0BmNv",
+                "name": "Kade Heller",
+                "email": "qparker@example.org",
+                "metadata": {
+                    "contact_no": "364.449.1524",
+                    "education": "Education TEST BE",
+                    "college": "Collge TEST",
+                    "experience": 801,
+                    "last_company": "Sipes-Howell"
+                }
+            },
+            "position": "Software Engineer",
+            "final_status": "active",
+            "metadata": null,
+            "created_at": "2021-03-22T09:11:36+00:00"
+        },
+        {
+            "key": "acoLFyyyGW4thEux",
+            "candidate": {
+                "key": "cYna6te6k6Cr8cs1",
+                "name": "Orrin Hodkiewicz",
+                "email": "cmayert@example.org",
+                "metadata": {
+                    "contact_no": "541.633.1955 x383",
+                    "education": "Education TEST BE",
+                    "college": "Collge TEST",
+                    "experience": 974,
+                    "last_company": "Lockman, Spinka and Prosacco"
+                }
+            },
+            "position": "Team Leader",
+            "final_status": "active",
+            "metadata": null,
+            "created_at": "2021-03-22T09:11:37+00:00"
+        },
+        {
+            "key": "firHo9HA0PclIpYt",
+            "candidate": {
+                "key": "05yhvZRr8j3COneV",
+                "name": "Zella Osinski",
+                "email": "clara.abshire@example.com",
+                "metadata": {
+                    "contact_no": "213-343-8095 x93460",
+                    "education": "Education TEST BE",
+                    "college": "Collge TEST",
+                    "experience": 260,
+                    "last_company": "Schaefer-Hauck"
+                }
+            },
+            "position": "Team Leader",
+            "final_status": "active",
+            "metadata": null,
+            "created_at": "2021-03-22T09:11:37+00:00"
+        }
+    ],
+    "meta": {
+        "current_page": 1,
+        "first_page_url": "http://localhost/api/v1/candidacies?&page=1",
+        "from": 1,
+        "last_page": 2,
+        "last_page_url": "http://localhost/api/v1/candidacies?&page=2",
+        "next_page_url": "http://localhost/api/v1/candidacies?&page=2",
+        "path": "http://localhost/api/v1/candidacies?",
+        "per_page": 15,
+        "prev_page_url": null,
+        "to": 15,
+        "total": 26
+    }
+}

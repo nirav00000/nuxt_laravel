@@ -1,0 +1,9 @@
+name: apricot-backend
+build:
+  darwin:
+    cmd: ../build.sh
+  linux:
+    cmd: ../build.sh
+properties:
+  NAME: apricot
+  DOCKERFILE: Dockerfile

@@ -1,0 +1,171 @@
+/* prettier-ignore */
+@import "https://fonts.googleapis.com/css?family=Libre+Franklin";
+
+body {
+  font-family: "Libre Franklin", sans-serif;
+}
+
+#timeline-header {
+  font-size: 26px;
+}
+
+.timeline {
+  list-style: none;
+  padding: 20px 0 20px;
+  position: relative;
+}
+
+.timeline::before {
+  background-color: #eee;
+  bottom: 0;
+  content: " ";
+  left: 50px;
+  margin-left: -1.5px;
+  position: absolute;
+  top: 0;
+  width: 3px;
+}
+
+.timeline > li {
+  margin-bottom: 20px;
+  position: relative;
+}
+
+.timeline > li::before,
+.timeline > li::after {
+  content: " ";
+  display: table;
+}
+
+.timeline > li::after {
+  clear: both;
+}
+
+.timeline > li > .timeline-panel {
+  border-radius: 2px;
+  border: 1px solid #d4d4d4;
+  box-shadow: 0 1px 2px rgba(100, 100, 100, 0.2);
+  margin-left: 100px;
+  padding: 20px;
+  position: relative;
+}
+
+.timeline > li > .timeline-panel .timeline-heading .timeline-panel-controls {
+  position: absolute;
+  right: 8px;
+  top: 5px;
+}
+
+.timeline > li > .timeline-panel .timeline-heading .timeline-panel-controls .timestamp {
+  display: inline-block;
+}
+
+.timeline > li > .timeline-panel .timeline-heading .timeline-panel-controls .controls {
+  display: inline-block;
+  padding-right: 5px;
+  border-right: 1px solid #aaa;
+}
+
+.timeline > li > .timeline-panel .timeline-heading .timeline-panel-controls .controls a {
+  color: #999;
+  font-size: 11px;
+  padding: 0 5px;
+}
+
+.timeline > li > .timeline-panel .timeline-heading .timeline-panel-controls .controls a:hover {
+  color: #333;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+.timeline > li > .timeline-panel .timeline-heading .timeline-panel-controls .controls + .timestamp {
+  padding-left: 5px;
+}
+
+.timeline > li .timeline-badge {
+  background-color: #999;
+  border-radius: 50%;
+  color: #fff;
+  font-size: 1.4em;
+  height: 50px;
+  left: 50px;
+  line-height: 52px;
+  margin-left: -25px;
+  position: absolute;
+  text-align: center;
+  top: 16px;
+  width: 50px;
+  z-index: 100;
+}
+
+.timeline > li .timeline-badge + .timeline-panel::before {
+  border-bottom: 15px solid transparent;
+  border-left: 0 solid #ccc;
+  border-right: 15px solid #ccc;
+  border-top: 15px solid transparent;
+  content: " ";
+  display: inline-block;
+  position: absolute;
+  left: -15px;
+  right: auto;
+  top: 26px;
+}
+
+.timeline > li .timeline-badge + .timeline-panel::after {
+  border-bottom: 14px solid transparent;
+  border-left: 0 solid #fff;
+  border-right: 14px solid #fff;
+  border-top: 14px solid transparent;
+  content: " ";
+  display: inline-block;
+  position: absolute;
+  left: -14px;
+  right: auto;
+  top: 27px;
+}
+
+.timeline-badge.primary {
+  background-color: #2e6da4 !important;
+}
+
+.timeline-badge.success {
+  background-color: #3f903f !important;
+}
+
+.timeline-badge.warning {
+  background-color: #f0ad4e !important;
+}
+
+.timeline-badge.danger {
+  background-color: #d9534f !important;
+}
+
+.timeline-badge.info {
+  background-color: #5bc0de !important;
+}
+
+.timeline-title {
+  margin-top: 0;
+  color: inherit;
+}
+
+.timeline-body > p,
+.timeline-body > ul {
+  margin-bottom: 0;
+}
+
+.timeline-body > p + p {
+  margin-top: 5px;
+}
+
+.copy {
+  position: absolute;
+  top: 5px;
+  right: 5px;
+  color: #aaa;
+  font-size: 11px;
+}
+
+.copy > * {
+  color: #444;
+}

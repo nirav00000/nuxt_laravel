@@ -1,0 +1,84 @@
+version: "3.3"
+ 
+services:
+  db:
+    image: bitnami/postgresql:12
+    environment:
+      POSTGRES_USER: postgres
+      POSTGRES_PASSWORD: postgres
+      POSTGRES_DB: apricot2
+    ports:
+    - 5432:5432
+
+  api:
+    build:
+      context: ./app/
+    command: >
+      sh -c "php artisan migrate && /usr/bin/supervisord -c ./docker/supervisiord.conf"
+    environment:
+      DB_CONNECTION: pgsql
+      DB_HOST: db
+      DB_PORT: 5432
+      DB_USERNAME: postgres
+      DB_PASSWORD: postgres
+      DB_DATABASE: apricot2
+      APP_DEBUG: "true"
+      APP_NAME: Apricot API
+      APP_URL: http://localhost
+      APP_ENV: stagging
+      APP_KEY: base64:0AhYZOwYThNBFfPOUpRCD3ztyvPSdTWzu8iQzGjnUoI=
+      JWT_SECRET: cc779bdDJHc4779962794736da9D66292af9a50d0b19ec5f427c0d3e186c6da97
+      LARAVEL_KONG_AUTH_TOKEN_ENABLED: "false"
+      RCE_ENDPOINT: "http://localhost:3000"
+      CODING_SESSION_EXPIRY_TIME: 30 # In minutes
+      DEX_OAUTH_URL: "https://dex.improwised.dev/"
+      GOOGLE_OAUTH_URL: "https://www.googleapis.com/oauth2/v3/"
+    ports: 
+    - 5000:5000
+    depends_on:
+    - db
+    restart: on-failure
+    
+  web:
+    build:
+      context: ./web/
+      args:
+        BUILD_TYPE: staging
+    environment:
+      API_URL: http://api:5000
+      PORT: 3000
+      HOST: localhost
+    depends_on:
+    - db
+    - api
+    ports:
+    - 3001:80
+    restart: on-failure
+  
+  oauth:
+    image: quay.io/pusher/oauth2_proxy
+    command: --config /oauth2-proxy.cfg
+    ports: 
+    - 4180:4180
+    volumes: 
+    - "./oauth.cfg:/oauth2-proxy.cfg"
+  
+  ldap-oauth:
+    image: quay.io/pusher/oauth2_proxy
+    command: --config /oauth2-proxy.cfg
+    ports: 
+    - 4181:4180
+    volumes: 
+    - "./ldap-oauth.cfg:/oauth2-proxy.cfg"
+  
+  nginx:
+    image: nginx
+    ports: 
+    - 3123:3123
+    volumes: 
+    - "./nginx.conf:/etc/nginx/nginx.conf"
+    depends_on: 
+    - web
+    - oauth
+    - ldap-oauth
+    restart: on-failure

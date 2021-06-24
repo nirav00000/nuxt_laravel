@@ -1,0 +1,65 @@
+{
+    "success": true,
+    "message": "Questionnaires retreived successfully",
+    "data": [
+        {
+            "key": "Q7POGM8",
+            "name": "Software Devloper Questionnaires",
+            "metadata": {
+                "url": "https://docs.google.com/formXYZ12",
+                "questions": [
+                    "Tell me something about yourself",
+                    "What are your hobbies?"
+                ]
+            }
+        },
+        {
+            "key": "95VWXMJ",
+            "name": "Test Form 1",
+            "metadata": {
+                "url": "https://docs.google.com/forms/d/e/1FAIpQLSfLree6F1UMBf6aEsTXW-murZ1ZrfXsBXlJBC-lE5DgLGNbeQ/viewform",
+                "questions": [
+                    "Name",
+                    "What are your hobbies?",
+                    "What is biggest problem you have faced in your life? And how you handled it?"
+                ]
+            }
+        },
+        {
+            "key": "EMN96MN",
+            "name": "Testing Form v2",
+            "metadata": {
+                "url": "https://docs.google.com/forms/d/e/1FAIpQLScYe5LT0QYp06o-BDo2ZXilvg-grshwBxlxVF9JM6JXxVvmQQ/viewform",
+                "questions": [
+                    "Tell us something about yourself.",
+                    "What is the biggest problem have you faced in your life?  and how did you overcome it?",
+                    "What are your strengths?",
+                    "What are your weaknesses?",
+                    "What is your greatest achievement till the date?"
+                ]
+            }
+        },
+        {
+            "key": "05OG3M4",
+            "name": "Default Form",
+            "metadata": {
+                "url": "https://form1.com",
+                "questions": []
+            }
+        },
+        {
+            "key": "E5K847L",
+            "name": "Software Developer Questionnaire",
+            "metadata": {
+                "url": "https://form2.com"
+            }
+        },
+        {
+            "key": "6MELO7E",
+            "name": "Questionnaire",
+            "metadata": {
+                "url": "https://form3.com"
+            }
+        }
+    ]
+}

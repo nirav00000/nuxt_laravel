@@ -1,0 +1,14 @@
+#
+# Complete the simpleArraySum function below.
+#
+def problem(array):
+    #
+    # Write your code here.
+    #
+
+
+# DO NOT CHANGE
+ar_count = int(input())
+ar = list(map(int, input().rstrip().split()))
+result = simpleArraySum(ar)
+print(result)

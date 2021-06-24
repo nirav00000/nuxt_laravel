@@ -1,0 +1,26 @@
+{
+    "success": true,
+    "message": "Stages retrieved successfully",
+    "data": {
+        "stages": [
+            {
+                "key": "cpL9DUnlcvDKiX7x",
+                "name": "Devops Questioner",
+                "type": "questionnaire",
+                "metadata":  { "fields":["date","time","link"], "questionnaire_key":"6MELO7E"}
+            },
+            {
+                "key": "I0RPWgyvNL7MWOvp",
+                "name": "SoftwareTechnical",
+                "type": "code",
+                "metadata": { "fields":["date","time","link"]}
+            },
+            {
+                "key": "8V9yf2RTkUcaWrBW",
+                "name": "DevopsTechnical",
+                "type": "code",
+                "metadata":  { "fields":["date","time","link"]}
+            }
+        ]
+    }
+}

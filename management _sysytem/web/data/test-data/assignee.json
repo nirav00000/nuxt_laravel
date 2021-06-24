@@ -1,0 +1,31 @@
+{
+    "data" : {
+    "success": true,
+    "message": "data retrived successfully",
+    "data": {
+      "users": [
+        {
+            "name": "Pooja",
+            "key"  : 1
+        },
+        {
+            "name": "Juhi",
+            "key"  : 2
+        },
+        {
+            "name": "HK",
+            "key"  : 3
+        },
+        {
+            "name" : "Abc",
+            "key"  : 4
+        },
+        {
+            "name" : "Xyz",
+            "key"  : 5
+        }
+  
+      ]
+    }
+  }
+}

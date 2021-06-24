@@ -1,0 +1,17 @@
+export default () => ({
+  stages: [],
+  candidacyList: null,
+  stageList: null,
+  loading: false,
+  candidacy: null,
+  candidate: null,
+  assigneeList: null,
+  error: false,
+  spinner: false,
+  historyList: null,
+  questionnaireList: null,
+  token: null,
+  user: "",
+  groups: "",
+  // isLogin: false,
+});

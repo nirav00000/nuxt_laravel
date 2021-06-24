@@ -1,0 +1,10 @@
+
+name: apricot-frontend
+build:
+  darwin:
+    cmd: ../build.sh
+  linux:
+    cmd: ../build.sh
+properties:
+  NAME: apricot-ui
+  DOCKERFILE: Dockerfile

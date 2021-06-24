@@ -1,0 +1,18 @@
+{
+    "success": true,
+    "message": "Data retrieved successfully.",
+    "data": {
+        "candidate": {
+            "key": "nnml6rrLuOY6hRAm",
+            "name": "Freda Goodwin",
+            "email": "mohr.ethelyn@example.com",
+            "metadata": {
+                "contact_no": "4658185411",
+                "education": "Education TEST BE",
+                "college": "Collge TEST",
+                "experience": 94,
+                "last_company": "Johnston, Cassin and McDermott"
+            }
+        }
+    }
+}

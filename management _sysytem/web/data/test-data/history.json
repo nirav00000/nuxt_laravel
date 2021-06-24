@@ -1,0 +1,39 @@
+{
+    "data" : {
+    "success": true,
+    "message": "data retrived successfully",
+    "data": {
+      "histories": [
+        {
+          "stage_name": "Devops_questioner",
+          "assignee": "Naman",
+          "status": "created",
+          "created_at": "2021-03-05T07:27:20+00:00",
+          "metadata": {}
+        },
+        {
+          "stage_name": "Devops_Technical",
+          "assignee": "ABC",
+          "status": "created",
+          "created_at": "2021-03-05T07:27:20+00:00",
+          "metadata": {}
+        },
+        {
+          "stage_name": "",
+          "assignee": "ABC",
+          "status": "",
+          "created_at": "2021-03-05T07:27:20+00:00",
+          "metadata": {
+            "feedback_key": "1",
+            "verdict": "yes"
+          },
+          "actor": "Mukesh"
+        }
+      ],
+      "meta": {
+        "total": 6,
+        "per_page": 3
+      }
+    }
+  }
+}

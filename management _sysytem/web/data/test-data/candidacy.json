@@ -1,0 +1,59 @@
+{
+    "key": "J5dh0JHCzLw4GTcK",
+    "candidate": {
+        "key": "s75Q12HkGZpwbLMs",
+        "name": "Emory Larkin",
+        "email": "schneider.melba@example.com",
+        "metadata": {
+            "contact_no": "+1 (760) 223-7176",
+            "education": "Education TEST BE",
+            "college": "Collge TEST",
+            "experience": 613,
+            "last_company": "Mueller, Kiehn and Stark"
+        }
+    },
+    "position": "Devops",
+    "final_status": "active",
+    "metadata": {
+        "stages": {
+                "destin_schmidt": {
+                    "assignee_name": "Janie Bins",
+                    "assignee": 8,
+                    "stage_name": "destin_schmidt"
+                },
+                "chase_wunsch_i_i": {
+                    "assignee_name": "example",
+                    "status": "created",
+                    "assignee": 1,
+                    "stage_name": "chase_wunsch_i_i"
+                },
+                "jacinto_bogisich": {
+                    "assignee_name": "Kim Little",
+                    "status": "created",
+                    "assignee": 12,
+                    "stage_name": "jacinto_bogisich"
+                },
+                "ursula_goyette_sr.": {
+                    "assignee_name": "Aliza Hauck",
+                    "status": "created",
+                    "assignee": 4,
+                    "stage_name": "ursula_goyette_sr."
+                }
+        },
+        "feedbacks": {
+            "key1": "data1",
+            "key2": "data2"
+        },
+        "resumes":[
+            {
+              "link": "https://resume1.com",
+              "added_at": "2021-06-06 05:57:32"
+            },
+            {
+              "link": "https://resume2.com",
+              "added_at": "2021-06-08 04:57:32"
+            }
+        ]
+    },
+    "created_at": "2021-03-26T10:09:22+00:00"
+}

@@ -1,0 +1,6 @@
+#!/usr/bin/with-contenv sh
+
+cd /usr/src/app
+
+# start our app
+npm run start;
